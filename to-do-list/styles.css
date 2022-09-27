@@ -110,6 +110,24 @@ body {
 
 @media (max-width: 767px) {
   .container {
-    width: 90%;
+    min-width: 80%;
+  }
+
+  .new-task-button{
+    font-size: 10px;
+    height: 60px;
+    align-items: center;
+  }
+
+  .new-task-container{
+    background-color: none;
+  }
+
+  .new-task-container input{
+    font-size: 10px;
+  }
+
+  .task-item p{
+    font-size: 14px;
   }
 }
