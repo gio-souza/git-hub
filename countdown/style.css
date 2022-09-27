@@ -12,7 +12,7 @@ body{
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background-color: aqua;
+  background-image: linear-gradient(to bottom, #a20e37, #80062b, #500019);
 }
 
 h1{
@@ -46,6 +46,31 @@ h1{
 }
 
 p {
-  margin-top: 4rem;
+  margin-top: 4rem; 
   color: rgb(215, 184, 4);
 }
+
+
+/* ------------ responsividade --------- */ 
+
+@media (max-width: 767px){
+
+  body{
+    margin: auto;
+  }
+
+  h1{
+   font-size: 2rem; 
+   padding: 30px
+  }
+
+
+  .text{
+    font-size: 1.5rem;
+  }
+
+  p{
+    overflow: hidden;
+  }
+}
+
