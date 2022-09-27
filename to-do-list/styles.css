@@ -109,7 +109,7 @@ body {
 /* ---------------- responsividade ---------------*/
 
 @media (max-width: 1024px) {
-  .instagram-wrapper {
+  .container {
     width: 90%;
   }
 }
